@@ -28,6 +28,7 @@ function App() {
   const newPig = () => {
     setCubesInfo([])
     setSlotCubesInfo([])
+    stepCount.current = 0;
     if (app.current) {
       pig.current = new Pig({
         panelWidth: app.current.clientWidth,
