@@ -3,6 +3,14 @@
   height: 100vh;
   line-height: 1;
 }
+.play{
+  position: absolute;
+  right: 10px;
+  top:10px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: red;
+}
 .App {
   width: 100%;
   overflow: hidden;
@@ -20,7 +28,8 @@
 .App .item.cover {
   border-color: rgba(0,0,0);
   cursor:auto;
-  background-color: rgb(49, 94, 86);
+  background-color: rgb(43, 158, 137);
+  box-shadow: 3px;
 }
 .footer{
   overflow: hidden;

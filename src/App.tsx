@@ -11,7 +11,7 @@ const defaultConfig = {
   cubeCount: 60,
   slotCount: 7,
   destroyCount: 3,
-  cubeWidth: Math.floor(bodyWidth / (bodyWidth > 750 ? 20 : 10))
+  cubeWidth: Math.floor(bodyWidth / (bodyWidth > 750 ? 20 : 8))
 }
 
 function App() {
@@ -51,6 +51,8 @@ function App() {
       pig.current.drawPanel()
     }
   }
+
+
 
   useEffect(() => {
     newPig();
